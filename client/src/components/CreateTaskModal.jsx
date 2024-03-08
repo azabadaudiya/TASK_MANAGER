@@ -14,7 +14,7 @@ const CreateTaskModal = ({
   const handleCreateTask = async () => {
     await axios
       .post(
-        "http://localhost:4000/api/v1/task/post",
+        "https://wicked-singlet-tick.cyclic.app/api/v1/task/post",
         { title, description },
         {
           withCredentials: true,
